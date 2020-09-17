@@ -1,6 +1,6 @@
 default: &default
   adapter: mysql2
-  database: duc4nh-rails
+  database: duc4nh_rails_development
   host: localhost
   username: louis0610
   password:
