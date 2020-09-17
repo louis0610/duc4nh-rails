@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  resources :users
 
+  root 'home#index'
   get 'home/index'
 end
